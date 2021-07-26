@@ -18,7 +18,7 @@ jobs:
         - name: pshgit 
           uses: appleboy/ssh-action@master
           with: 
-            host: ${{ 218.145.31.160 }} 
-            username: ${{ pshgit }} 
-            password: ${{ pshgit }}
+            host: 218.145.31.160 
+            username: pshgit
+            password: pshgit
             script: 'cd /home/pshgit/html && git pull'    
